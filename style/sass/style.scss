@@ -1,0 +1,19 @@
+body{
+  background-image: url(../../img/front.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+#logo{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  height: 70px;
+}
+
+
+.nav-item{
+  margin-left: 40px;
+}

@@ -1,0 +1,22 @@
+/* line 1, /Users/Candice/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+body {
+  background-image: url(../../img/front.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* line 8, /Users/Candice/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+#logo {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  height: 70px;
+}
+
+/* line 17, /Users/Candice/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+.nav-item {
+  margin-left: 40px;
+}
+
+/*# sourceMappingURL=../css/style.map */

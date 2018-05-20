@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/style.css",
+	"sources": [
+		"../sass/style.scss"
+	],
+	"sourcesContent": [
+		"body{\n  background-image: url(../../img/front.jpg);\n  background-size: cover;\n  background-attachment: fixed;\n}\n\n\n#logo{\n  display: inline-block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: -10px;\n  height: 70px;\n}\n\n\n.nav-item{\n  margin-left: 40px;\n}\n"
+	],
+	"mappings": ";AAAA,AAAA,IAAI,CAAA;EACF,gBAAgB,EAAyB,wBAAC;EAC1C,eAAe,EAAE,KAAM;EACvB,qBAAqB,EAAE,KAAM;CAC9B;;;AAGD,AAAA,KAAK,CAAA;EACH,OAAO,EAAE,YAAa;EACtB,WAAW,EAAE,IAAK;EAClB,YAAY,EAAE,IAAK;EACnB,UAAU,EAAE,KAAM;EAClB,MAAM,EAAE,IAAK;CACd;;;AAGD,AAAA,SAAS,CAAA;EACP,WAAW,EAAE,IAAK;CACnB",
+	"names": []
+}
