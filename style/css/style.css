@@ -1,22 +1,63 @@
-/* line 1, /Users/Candice/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
-body {
-  background-image: url(../../img/front.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-/* line 8, /Users/Candice/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+/* line 13, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
 #logo {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -10px;
+  margin-top: -5px;
   height: 70px;
 }
 
-/* line 17, /Users/Candice/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+/* line 21, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
 .nav-item {
   margin-left: 40px;
+}
+
+/* line 25, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+h1 {
+  color: transparent;
+}
+
+/* line 29, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+.welcome_block {
+  color: white;
+  height: 900px;
+  background-image: url(../../img/front.jpg);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+/* line 41, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+h4 {
+  font-size: 200%;
+}
+
+/* line 45, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+#welcome_columns {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* line 51, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+#massage {
+  width: 60%;
+}
+
+/* line 55, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+#sauna {
+  width: 60%;
+}
+
+/* line 59, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+#personal-training {
+  width: 60%;
+}
+
+/* line 63, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+#welcome-button {
+  margin: 10px;
 }
 
 /*# sourceMappingURL=../css/style.map */
