@@ -1,0 +1,229 @@
+/* line 2, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+#logo {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: auto;
+  margin-top: -5px;
+  height: 70px;
+}
+
+/* line 10, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+.navbar-brand {
+  display: block;
+  float: right;
+}
+
+/* line 15, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+.nav-item {
+  margin-left: 40px;
+}
+
+/* line 20, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+#invisible_h1 {
+  color: transparent;
+}
+
+/* line 24, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+.welcome_block {
+  color: white;
+  height: 820px;
+  background-image: url(../../img/front.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+/* line 33, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 820px;
+  width: 100vw;
+}
+
+/* line 39, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+#welcome_block_text {
+  font-size: 3vw;
+  text-shadow: 2px 2px #000;
+  margin-top: 180px;
+  line-height: 180%;
+}
+
+/* line 46, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+#main_services_heading {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 50px;
+}
+
+/* line 52, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+#main_services_text_block {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  border: 0px;
+}
+
+/* line 59, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+#main_services_card {
+  margin: 60px;
+}
+
+/* line 63, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+#main_services_button {
+  color: white;
+  background-color: cadetblue;
+  margin-bottom: 100px;
+  font-size: 1vw;
+}
+
+/* line 70, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+.massage_therapy_block {
+  height: 820px;
+  background-image: url(../../img/table.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+}
+
+/* line 80, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+.overlay2 {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 820px;
+  width: 100vw;
+}
+
+/* line 86, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+#service_heading {
+  padding-top: 100px;
+  font-size: 3vw;
+  text-shadow: 2px 2px #000;
+}
+
+/* line 92, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+#service_text {
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-size: 2vw;
+  text-shadow: 2px 2px #000;
+}
+
+/* line 100, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+#service_type_row {
+  padding: 30px;
+  margin-top: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 106, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+#service_type {
+  color: #afcecf;
+  line-height: 180%;
+  text-shadow: .5px .5px #000;
+  font-size: 1vw;
+}
+
+/* line 113, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+#appointment {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  padding: 30px;
+  background-color: cadetblue;
+  color: white;
+  font-size: 1vw;
+}
+
+/* line 124, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+.white_space {
+  height: 200px;
+  background-color: white;
+}
+
+/* line 129, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+.sauna_therapy {
+  height: 820px;
+  background-image: url(../../img/sauna.png);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+}
+
+/* line 138, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+.fitness {
+  height: 820px;
+  background-image: url(../../img/fitness.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+}
+
+/* line 147, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+.wholyfit {
+  height: 820px;
+  background-image: url(../../img/mats.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+}
+
+/* line 156, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+#wholyfit_service_type {
+  color: #afcecf;
+  line-height: 180%;
+  text-shadow: .5px .5px #000;
+  font-size: 1vw;
+  text-align: center;
+}
+
+/* line 164, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+footer {
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+/* line 171, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+#footer_list {
+  list-style: none;
+  display: inline-block;
+  margin: 40px;
+}
+
+/* line 177, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+#footer_header_link {
+  color: cadetblue;
+}
+
+/* line 181, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+#footer_link {
+  color: white;
+}
+
+/* line 185, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+#footer_logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  height: 70px;
+}
+
+/* line 193, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+#copywrite {
+  display: block;
+  margin: 20px;
+  text-align: center;
+}
+
+/* line 199, /Users/Candice1/Documents/GitHub - Web Design/tts-web-design-capstone/style/sass/style.scss */
+.footer-brand {
+  padding-right: 10px;
+}
+
+/*# sourceMappingURL=../css/style.map */
