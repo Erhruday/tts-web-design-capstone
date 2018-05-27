@@ -4,15 +4,11 @@
 //   background-attachment: fixed;
 // }
 
-// .overlay{
-//   background-color: rgba(0,0,0,.5);
-//   height: 100vh;
-//   width: 100vw;
-// }
+
 
 #logo{
   display: inline-block;
-  margin-left: auto;
+  margin-left: 5px;
   margin-right: auto;
   margin-top: -5px;
   height: 70px;
@@ -22,44 +18,137 @@
   margin-left: 40px;
 }
 
-h1{
-  color: rgba(0,0,0,0)
+#invisible_h1{
+  color: transparent;
 }
 
 .welcome_block{
   color: white;
-
-  height: 900px;
+  height: 820px;
   background-image: url(../../img/front.jpg);
-  background-color: rgba(0,0,0,.5);
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
-
 }
 
-h4{
-  font-size: 200%
+.overlay{
+  background-color: rgba(0,0,0,.5);
+  height: 820px;
+  width: 100vw;
 }
 
-#welcome_columns{
-  background-color: #fff;
-  padding: 20px;
+#intro{
+  font-size: 3vw;
+  text-shadow: 2px 2px #000;
+  margin-top: 180px;
+  line-height: 180%;
+}
+
+#welcome_text_block{
+
+  margin-left: auto;
+  margin-right: auto;
+  // background-color: rgba(0,0,0,.5);
+  font-size: 20px;
+  border: 0px;
+}
+
+#services{
+  text-align: center;
+  margin-top: 80px;
+  font-size: 50px;
+}
+
+#service_button{
+  color: whitesmoke;
+  line-height: 180%;
+  background-color: cadetblue;
+}
+// .card-text{
+//   color: whitesmoke;
+//   line-height: 180%;
+// }
+
+#service_card{
+
+  margin: 60px;
+}
+
+
+.panel-heading{
   text-align: center;
 }
 
-#massage{
-  width: 60%
+.massage_therapy{
+  height: 820px;
+  background-image: url(../../img/table.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+
 }
 
-#sauna{
-  width: 60%
+.overlay2{
+  background-color: rgba(0,0,0,.5);
+  height: 820px;
+  width: 100vw;
+
 }
 
-#personal-training{
-  width: 60%
+#service_heading{
+  padding-top: 100px;
+  font-size: 3vw;
+  text-shadow: 2px 2px #000;
 }
 
-#welcome-button{
-  margin: 10px;
+#service_text{
+
+  margin-top: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-size: 2vw;
+  text-shadow: 2px 2px #000;
+}
+
+.row{
+  padding: 30px;
+  margin-top: 180px;
+  // margin-left: 0px;
+  // margin-right: 0px;
+  background-color: rgba(0,0,0,.5);
+}
+
+#massage_type{
+  color: #afcecf;
+  line-height: 180%;
+  text-shadow: .5px .5px #000;
+  font-size: 1.5vw;
+}
+
+#about_massage{
+  text-align: center;
+  padding: 20px 100px 20px 100px;
+}
+
+.sauna_therapy{
+  height: 820px;
+  background-image: url(../../img/saunaroom.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+}
+
+#appointment{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 30px;
+  background-color: cadetblue;
+  color: white;
+  font-size: 1vw;
+
 }
