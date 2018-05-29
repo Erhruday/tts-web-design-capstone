@@ -1,3 +1,152 @@
+
+@media only screen and (max-width: 700px) {
+		/* MOBILE ONLY */
+
+#logo{
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: auto;
+  margin-top: -5px;
+  height: 40px;
+}
+
+// // Fix these social media icon images
+// // .navbar-brand{
+// //   display: block;
+// //   float: right;
+// // }
+
+.navbar-text{
+  display: none;
+}
+// // BODY
+#invisible_h1{
+  color: transparent;
+  font-size: 1px;
+}
+
+.welcome_block{
+  background-image: url(../../img/front.jpg);
+  background-size: contain;
+  background-attachment: scroll;
+  height: 240px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.overlay{
+  background-color: rgba(0,0,0,.5);
+  height: 240px;
+  width: 100vw;
+}
+
+#welcome_block_text{
+  font-size: 5vw;
+  color: white;
+  text-shadow: 2px 2px #000;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: inherit;
+}
+
+#main_services_heading{
+  text-align: center;
+  margin-top: 40px;
+  font-size: 6vw;
+}
+
+#main_services_text_block{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 4vw;
+  // border: 0px;
+}
+
+#main_service_text{
+  text-align: center;
+}
+
+#main_services_button{
+  font-size: 4vw;
+  background-color: cadetblue;
+  color: white;
+  margin-top: -10px;
+}
+
+.massage_therapy_block{
+  display: none;
+}
+
+#service_heading{
+  padding-top: 10px;
+  font-size: 6vw;
+}
+
+#service_text{
+  // margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 4vw;
+}
+
+.sauna_therapy{
+  display: none;
+}
+
+.fitness{
+  display: none;
+}
+
+.wholyfit{
+  display: none;
+}
+
+footer{
+
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+#footer_list{
+  display: none;
+}
+
+#footer_logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  height: 50px;
+}
+
+#copywrite{
+  display: block;
+  margin: 20px;
+  text-align: center;
+  font-size: 2vw;
+}
+
+#map{
+  display: block;
+  height: inherit;
+  width: inherit;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mobile_view_contact{
+  text-align: center;
+}
+
+}
+// END MOBILE ONLY
+
+
+@media only screen and (min-width: 701px){
 // NAVBAR
 #logo{
   display: inline-block;
@@ -7,10 +156,10 @@
   height: 70px;
 }
 
-.navbar-brand{
-  display: block;
-  float: right;
-}
+// .navbar-brand{
+//   display: block;
+//   float: right;
+// }
 
 .nav-item{
   margin-left: 40px;
@@ -56,8 +205,10 @@
   border: 0px;
 }
 
-#main_services_card{
-  margin: 60px;
+#main_service_text{
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
 }
 
 #main_services_button{
@@ -74,7 +225,6 @@
   background-attachment: fixed;
   color: white;
   text-align: center;
-
 }
 
 .overlay2{
@@ -146,7 +296,7 @@
 
 .wholyfit{
   height: 820px;
-  background-image: url(../../img/mats.jpg);
+  background-image: url(../../img/mats2.jpg);
   background-size: cover;
   background-attachment: fixed;
   color: white;
@@ -162,16 +312,16 @@
 }
 
 footer{
-
   padding: 20px;
   background-color: #333;
   color: white;
+  height: 400px;
 }
 
 #footer_list{
   list-style: none;
   display: inline-block;
-  margin: 40px;
+  margin: 10px;
 }
 
 #footer_header_link{
@@ -182,20 +332,36 @@ footer{
   color: white;
 }
 
+#map{
+  display: inline-block;
+  margin-top: 10px;
+  float: right;
+  height: 160px;
+  width: inherit;
+}
+
+#mobile_view_contact{
+  display: none;
+}
+
 #footer_logo{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  // display: block;
+
+  float: left;
+  margin-top: 20px;
   margin-bottom: 20px;
   height: 70px;
 }
 
 #copywrite{
-  display: block;
+  // display: block;
   margin: 20px;
-  text-align: center;
+  // text-align: center;
 }
 
-.footer-brand{
-  padding-right: 10px;
+// .footer-brand{
+//   padding-right: 10px;
+// }
+
 }
+// END MEDIA VIEW
